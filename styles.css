@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #ff3b6c;
+    color: #ffffff;
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .title {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .palindrome-div {
+    width: min(100vw, 600px);
+    min-height: 100px;
+    border: solid black 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: rgb(0, 255, 221);
+    box-shadow: 8px 8px rgb(0, 0, 0);
+
+  }
+  
+  label {
+    font-size: 1.4rem;
+    color: #0a0a23;
+    margin-bottom: 20px;
+  }
+  
+  .palindrome-btn {
+    width: 90px;
+    border: none;
+    height: 48px;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  }
+  .palindrome-btn:hover {
+    background-color: #ff3b6c;
+    
+  }
+  
+  .palindrome-input {
+    height: 48px;
+    display: flexbox;
+    width: 70%;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 20px;
+    border: 2px solid #0a0a23;
+    
+  }
+
+  .palindrome-input::placeholder {
+    text-align: center;
+  }
+  
+  .user-input {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .results-div {
+    overflow-y: auto;
+    word-wrap: break-word;
+    min-height: 50px;
+    color: black;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .palindrome-definition-div {
+    width: min(100vw, 600px);
+    font-size: 1.3rem;
+    min-height: 140px;
+    background-color: #acfff4;
+    margin-top: 20px;
+    padding: 20px;
+    border: solid 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#000000;
+    box-shadow: 8px 8px rgb(0, 0, 0);
+  }
+  
+  .palindrome-definition {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
